@@ -4,7 +4,8 @@
   "description": "Detroit Meets Admin API",
   "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "test": "exit 0",
+    "start": "node index"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,11 @@
   "bugs": {
     "url": "https://github.com/detroitmeets/api-admin/issues"
   },
-  "homepage": "https://github.com/detroitmeets/api-admin#readme"
+  "homepage": "https://github.com/detroitmeets/api-admin#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "lodash": "^4.17.11",
+    "mongoose": "^5.4.18"
+  }
 }
